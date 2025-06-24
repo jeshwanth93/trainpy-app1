@@ -4,7 +4,7 @@ import requests
 st.title("🐍 TrainPy - Python AI Assistant")
 
 # Directly using token (not recommended for production)
-HF_TOKEN = "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"
+HF_TOKEN = "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"
 API_URL = "https://api-inference.huggingface.co/models/jeshwanth93/TrainPy"
 
 headers = {
