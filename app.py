@@ -4,7 +4,7 @@ import requests
 st.title("🐍 TrainPy - Python AI Assistant")
 
 # ✅ Secure token usage via Streamlit Secrets
-HF_TOKEN = st.secrets["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"]
+HF_TOKEN = st.secrets["HF_TOKEN"]
 API_URL = "https://api-inference.huggingface.co/models/jeshwanth93/TrainPy"
 
 headers = {
